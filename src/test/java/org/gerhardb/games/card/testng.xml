@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Regression1">
+    <classes>
+      <class name="org.gerhardb.games.card.deck.DeckTest"/>
+      <class name="org.gerhardb.games.card.blackjack.HandTest"/>
+      <class name="org.gerhardb.games.card.blackjack.DeciderTest"/>
+      <class name="org.gerhardb.games.card.blackjack.BlackjackTest"/>
+    </classes>
+  </test>
+</suite>

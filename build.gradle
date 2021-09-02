@@ -1,0 +1,39 @@
+/*
+	Card Games
+	
+	This is the build.gradle file for: cardGames
+*/
+
+plugins {
+  id 'application'
+  id 'java'
+  id 'eclipse'
+}
+
+mainClassName = "org.gerhardb.games.card.PlayBlackjack"
+version = '0.0.1'
+
+repositories {
+	mavenCentral()
+}
+    
+dependencies {
+    testImplementation 'org.testng:testng:7.4.0' 
+}
+
+jar {
+	manifest {
+		attributes(
+		"Implementation-Title": "JIBS Card Games",
+		"Implementation-Version": version,
+		"Implementation-URL":"www.jibs.us",
+		"Implementation-Vendor":"Gerhard Beck",
+		"Implementation-Vendor-Id":"org.gerhardb",
+		'Built-By': System.getProperty('user.name'),
+		'Built-Date': new Date(),
+		'Built-JDK': System.getProperty('java.version'),
+		'Built-Gradle': gradle.gradleVersion,
+		"Main-Class": mainClassName,
+		)
+	}
+}
