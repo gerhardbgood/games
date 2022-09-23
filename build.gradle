@@ -1,6 +1,6 @@
 /*
 	Card Games
-	
+		
 	This is the build.gradle file for: cardGames
 */
 
@@ -19,7 +19,7 @@ repositories {
     
 dependencies {
 	// https://mvnrepository.com/artifact/org.testng/testng
-    testImplementation 'org.testng:testng:7.4.0' 
+    testImplementation 'org.testng:testng:7.6.1' 
 }
 
 jar {
