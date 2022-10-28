@@ -10,6 +10,12 @@ plugins {
   id 'eclipse'
 }
 
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(18)
+	}
+}
+
 mainClassName = "org.gerhardb.games.card.PlayBlackjack"
 version = '0.0.1'
 
