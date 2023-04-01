@@ -12,7 +12,7 @@ plugins {
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(20)
+		languageVersion = languageVersion = JavaLanguageVersion.of(19)
 	}
 }
 
