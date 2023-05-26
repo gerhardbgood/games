@@ -15,7 +15,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
 	<classpathentry kind="output" path="bin/default"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18/"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19/"/>
 	<classpathentry sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.6.1/e9cb0a202a0ceaafa645067f89d024ab2486d447/testng-7.6.1-sources.jar" kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.6.1/3411a1a74d2eba06b2487d048a107c1b42c4558c/testng-7.6.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="test"/>
