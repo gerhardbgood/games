@@ -12,11 +12,10 @@ plugins {
 
 java {
 	toolchain {
-		languageVersion = languageVersion = JavaLanguageVersion.of(21)
+		languageVersion = JavaLanguageVersion.of(24)
 	}
 }
 
-mainClassName = "org.gerhardb.games.card.PlayBlackjack"
 version = '0.0.1'
 
 repositories {
@@ -25,12 +24,14 @@ repositories {
     
 dependencies {
 	// https://mvnrepository.com/artifact/org.testng/testng
-    testImplementation 'org.testng:testng:7.6.1' 
+	testImplementation 'org.testng:testng:7.11.0'    
 }
 
 jar {
 	manifest {
 		attributes(
+		"Main-Class":"org.gerhardb.games.card.PlayBlackjack",
+        'Automatic-Module-Name': "org.gerhardb.games.card.PlayBlackjack",
 		"Implementation-Title": "JIBS Card Games",
 		"Implementation-Version": version,
 		"Implementation-URL":"www.jibs.us",
@@ -39,8 +40,7 @@ jar {
 		'Built-By': System.getProperty('user.name'),
 		'Built-Date': new Date(),
 		'Built-JDK': System.getProperty('java.version'),
-		'Built-Gradle': gradle.gradleVersion,
-		"Main-Class": mainClassName,
+		'Built-Gradle': gradle.gradleVersion
 		)
 	}
 }

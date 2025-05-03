@@ -3,10 +3,10 @@ package org.gerhardb.games.card.blackjack;
 /**
  * 
 	The Rules Are As Follows:
-	• There will be only 2 players – a “human” player and a dealer
-	• If the player’s or dealer’s cards total over 21, they bust and their turn is over
-	• If both players bust, the dealer wins
-	• If both players have the same score, they tie
+	There will be only 2 players a human player and a dealer
+	If the player's or dealer's cards total over 21, they bust and their turn is over
+	If both players bust, the dealer wins
+	If both players have the same score, they tie
  *
  * @author Gerhard
  *
