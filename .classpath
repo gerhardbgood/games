@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="bin/main" path="src/main/java">
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="bin/test" path="src/test/java">
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
 		<attributes>
-			<attribute name="test" value="true"/>
 			<attribute name="gradle_scope" value="test"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-24/">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.11.0/c75ee639e6fc9c0a406d32608d532d9ee9341941/testng-7.11.0.jar" sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.11.0/ee9985cf84428b6e7ec90df79329be23e12676cb/testng-7.11.0-sources.jar">
-		<attributes>
 			<attribute name="test" value="true"/>
-			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar" sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/68223612de5e53b90b752bbbe520390ae1f104db/slf4j-api-2.0.16-sources.jar">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-25/"/>
+	<classpathentry sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.11.0/ee9985cf84428b6e7ec90df79329be23e12676cb/testng-7.11.0-sources.jar" kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.11.0/c75ee639e6fc9c0a406d32608d532d9ee9341941/testng-7.11.0.jar">
 		<attributes>
-			<attribute name="test" value="true"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.jcommander/jcommander/1.83/c342a2ad17ec08db105146e27c7ba9c535c9bb46/jcommander-1.83.jar" sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.jcommander/jcommander/1.83/6922a28c613ecd528348292b319ab069b3e9e88a/jcommander-1.83-sources.jar">
+	<classpathentry sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/68223612de5e53b90b752bbbe520390ae1f104db/slf4j-api-2.0.16-sources.jar" kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar">
 		<attributes>
-			<attribute name="test" value="true"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.7.1/42088e652462c40a369b64d87e18e825644acfab/jquery-3.7.1.jar" sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.7.1/1c51a7f97d0fe46d0b4628ae041d42f5dab53acc/jquery-3.7.1-sources.jar">
+	<classpathentry sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.jcommander/jcommander/1.83/6922a28c613ecd528348292b319ab069b3e9e88a/jcommander-1.83-sources.jar" kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.jcommander/jcommander/1.83/c342a2ad17ec08db105146e27c7ba9c535c9bb46/jcommander-1.83.jar">
 		<attributes>
-			<attribute name="test" value="true"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry sourcepath="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.7.1/1c51a7f97d0fe46d0b4628ae041d42f5dab53acc/jquery-3.7.1-sources.jar" kind="lib" path="C:/Users/gtbec/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.7.1/42088e652462c40a369b64d87e18e825644acfab/jquery-3.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
 </classpath>
